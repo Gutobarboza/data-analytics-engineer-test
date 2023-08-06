@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: trs_data_analytics_engineer_test_country
+    description: The soccer team country.
+    columns:
+      - name: id
+        description: The unique number identification of country.
+      - name: name
+        description: Country name.
+
+  - name: trs_data_analytics_engineer_test_league
+    description: The country league.
+    columns:
+      - name: id
+        description: The unique number identification of league.
+      - name: country_id
+        description: The unique number identification of country.
+      - name: name
+        description: Country name.
